@@ -1,0 +1,9 @@
+    "custom/weather": {
+      "format": "{}",
+      "format-alt": "{alt}: {}",
+      "format-alt-click": "click",
+      "interval": 3600,
+      "return-type": "json",
+      "exec": "~/.config/hypr/scripts/weather.sh",
+      "exec-if": "ping wttr.in -c1"
+    },
